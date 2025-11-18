@@ -28,13 +28,16 @@ Characters have a number of skills they can use to potentially avoid encounters 
 ### Danger Level
 Danger levels serve one purpose: to represent how well-patrolled or well-observed an area is by increasing the difficulty of remaining unnoticed while moving through that area. In general it's safe to denote danger in four levels:
 
-| Danger | DC | Description |
-|:------------:|:--:|:------------|
-| 0 | -5 | Unguarded, uninhabited.|
-| 1 |  0 | Sparsely inhabited, disorganized presence |
-| 2 | +5 | Lightly patrolled, pickets and scouts |
-| 3 | +10 | Regularly patrolled, checkpoints and posts |
-| 4 | +15 | Heavily patrolled, high alert |
+| DC  | Description |
+|:---:|:------------|
+|   5 | Lightly patrolled, pickets and scouts |
+|  10 | Regularly patrolled, checkpoints and posts |
+|  15 | Heavily guarded, sensitive area |
+|  +5 | Recent suspicious activity, on alert |
+| +10 | Danger detected, high alert |
+
+### Obstacle Density
+Danger levels 
 
 ### Resolving detection
 Roll once per travel leg, at the same time as the Navigation roll is made -- that is, once before noon, and once before arriving at the day's destination. On a success, any unpleasant encounters or surprises are avoided. On a failure, consequences are in the DM's hands.
