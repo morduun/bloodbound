@@ -4,6 +4,15 @@
 
 As players traverse areas that are dangerous, they have a chance of being noted by their denizens. The DC of avoiding encounters in dangerous territories is depending on the type of terrain the party's traveling through, the menaces present in that terrain, the method the party is using to avoid encounters, and the characters leading the group.
 
+### Process Summary
+
+1. GM identifies **Terrain Type**
+2. Players indicate **Skill** they're going to use to navigate the terrain.
+3. GM defines terrain's **Observation Level**, its **Alert Level**, the **Obstacle Density**, and any **Environmental Effects** to determine DC.
+4. Indicated party member rolls for success; can be **Aided** by another character that has **Expertise** in the skill (giving them **Advantage** to the roll)
+5. Success results in the party being undetected.
+6. Initial failure can 'fall back' to another appropriate skill, but roleplay is required and DC increases.
+
 ### Avoidance Skills & Terrain
 Characters have a number of skills they can use to potentially avoid encounters - their application across terrain types, as a general guide, is provided below.
 
@@ -65,8 +74,4 @@ Finally, environmental effects like weather, or other similar effects (smoke fro
 
 
 
-### Resolving detection
 
-Roll once per travel leg, at the same time as the Navigation roll is made -- that is, once before noon, and once before arriving at the day's destination. On a success, any unpleasant encounters or surprises are avoided. On a failure, consequences are in the DM's hands.
-
-On a failure, at the DM's discretion, an encounter should take place, though a combat encounter isn't always called for. The fact that the party was detected, however, will preclude any way for them to evade the encounter.
