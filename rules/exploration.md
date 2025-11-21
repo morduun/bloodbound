@@ -14,6 +14,7 @@ As players traverse areas that are dangerous, they have a chance of being noted 
 6. Initial failure can 'fall back' to another appropriate skill, but roleplay is required and DC increases.
 
 ### Avoidance Skills & Terrain
+
 Characters have a number of skills they can use to potentially avoid encounters - their application across terrain types, as a general guide, is provided below.
 
 | Terrain Type | Arcana | History | Insight | Investigation | Nature | Perception | Stealth | Survival |
