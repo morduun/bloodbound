@@ -37,7 +37,7 @@ As a general rule, the ship's Damage Threshhold (DT) will be equivalent to its C
 While ships are fairly large targets to hit, they're also heavily reinforced and often armored, and their armor classes reflect that.  A ship's base Armor Class is its CON modifier + 10 before considering ship upgrades.
 
 ### Hull HP
-Ships are built with considerable strength, to endure the ravages of both sea and sea-beast. HP represent their overall resilience, though depending on how a battle flows, a ship may take on situational damage when critically hit (breaches, decks afire, etc). A ship's base hull HP is equal to 20x its CON score before considering ship upgrades.
+Ships are built with considerable strength, to endure the ravages of both sea and sea-beast. HP represent their overall resilience, though depending on how a battle flows, a ship may take on situational damage when critically hit (breaches, decks afire, etc). A ship's base hull HP is equal to 30x its CON score before considering ship upgrades.
 
 ### Rigging AC/HP
 While Rigging is both less armored (AC is 10 + half its CON mod) and less sturdy (10x its CON score) than the ship's hull, it is also at Disadvantage to hit with all weapon types.
@@ -120,8 +120,7 @@ Complement is notated in a slash format (80/10/3) - Total number of Small or Med
 
 > [!example] **The Duskseeker**
 >
-> #### Cutter
->
+> #### Classic Cutter
 > *Gargantuan vehicle (30 ft. by 8 ft.)
 > ___
 > - **Crew** 4 crew, 4 passengers
@@ -131,7 +130,7 @@ Complement is notated in a slash format (80/10/3) - Total number of Small or Med
 > - **Upgrade Points** 1
 > ___
 > - **Hull Armor Class** 9, 14 in motion
-> - **Hull Hit Points** 180
+> - **Hull Hit Points** 270
 > - **Rigging Armor Class** 9, 14 in motion
 > - **Rigging Hit Points** 90
 > - **Damage Threshold** 9
@@ -163,7 +162,7 @@ Complement is notated in a slash format (80/10/3) - Total number of Small or Med
 > - **Upgrade Points** 3 [Armor Plating, Barracks, Brig]
 > ___
 > - **Hull Armor Class** 10, 11 in motion
-> - **Hull Hit Points** 360
+> - **Hull Hit Points** 540
 > - **Rigging Armor Class** 10, 11 in motion
 > - **Rigging Hit Points** 180
 > - **Damage Threshold** 23
