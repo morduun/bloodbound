@@ -120,7 +120,8 @@ Complement is notated in a slash format (80/10/3) - Total number of Small or Med
 
 > [!example] **The Duskseeker**
 >
-> #### Merchant Vessel
+> #### Cutter
+>
 > *Gargantuan vehicle (30 ft. by 8 ft.)
 > ___
 > - **Crew** 4 crew, 4 passengers
@@ -129,9 +130,9 @@ Complement is notated in a slash format (80/10/3) - Total number of Small or Med
 > - **Weapon Mounts** 1 Small
 > - **Upgrade Points** 1
 > ___
-> - **Hull Armor Class** 10, 15 in motion
+> - **Hull Armor Class** 9, 14 in motion
 > - **Hull Hit Points** 180
-> - **Rigging Armor Class** 10, 15 in motion
+> - **Rigging Armor Class** 9, 14 in motion
 > - **Rigging Hit Points** 90
 > - **Damage Threshold** 9
 > - **Maneuvering Class** Swift
@@ -145,8 +146,7 @@ Complement is notated in a slash format (80/10/3) - Total number of Small or Med
 > ___
 >
 > ### Actions
-> ***Move: Oars (20ft.)*** The merchant ship can use its helm to move with its oars. Requires 6 crew.
->
+> ***Move: Oars (20ft.)*** The merchant ship can use its helm to move with its oars. Requires 4 crew.
 > ***Move: Sail (15 / 45 / 60ft.)*** The merchant ship can use its helm to move with its sail. Movement stats are for tacking into wind / normal movement / sailing with the wind.
 
 
@@ -179,7 +179,6 @@ Complement is notated in a slash format (80/10/3) - Total number of Small or Med
 >
 > ### Actions
 > ***Move: Oars (20ft.)*** The merchant ship can use its helm to move with its oars. Requires 6 crew.
->
 > ***Move: Sail (15 / 45 / 60ft.)*** The merchant ship can use its helm to move with its sail. Movement stats are for tacking into wind / normal movement / sailing with the wind.
 
 
@@ -650,5 +649,4 @@ Strong winds have varying effects on creatures subject to them. Conditions and S
 ***Prone***: DC15 - save or be knocked prone by the force of the wind. Flying creatures are blown back 30'.
 
 ***Blown***: DC20+ - save or be knocked prone and rolled 15', taking 1d6 damage. Flying creatures are blown back 60'. DC increases by 5 for each wind strength level.
-
 
