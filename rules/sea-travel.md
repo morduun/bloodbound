@@ -45,6 +45,7 @@ While Rigging is both less armored (AC is 10 + half its CON mod) and less sturdy
 Any sail-based ship whose rigging is dropped to 50% drops one Maneuvering Class; if its rigging is destroyed, it becomes immobile.
 
 ### Damage Threshold
+
 Ships are large structures which require a considerable attack to take damage. The damage of an attack must be greater than this number or have no effect at all on the ship or rigging. This number is not subtracted from damage, it is all or nothing. 
 
 As noted earlier, Damage Threshold is generally equal to the raw Constitution of the ship before considering ship upgrades. Note that siege weapon attacks ignore the Damage Threshold of ships.
@@ -432,6 +433,9 @@ Without a specific responsibility during combat, their rolls focus on supporting
 
 - ***Board***: Free Action. Give the order to Board. See Boarding for more information
 
+- **_Brace for Impact_**: When damage is declared but before it is applied, you can shout a warning to the crew to secure lines and brace for the shock. Make a DC 15 Charisma/Intimidation check (Intimidation). On success, the ship gains Resistance to all damage from the triggering attack or collision; on failure, the damage is reduced by an amount equal to the ship's Crew Quality.
+
+
 #### Available Travel Actions:
 - ***Stealth***: The ship’s captain can engage in this activity only if the weather conditions restrict visibility, such as in heavy fog. The ship makes a Dexterity check with a bonus equal to the crew’s quality score to determine if it can hide.
 - ***Raise Morale***: The first mate can manage the crew’s time to grant extended breaks, provide instruction, and generally improve the quality of life on the ship. Once every 24 hours, if the crew’s quality score is 3 or lower, the first mate can make a DC 15 Charisma (Persuasion) check. On a successful check, the crew’s quality score increases by 1.
@@ -498,6 +502,7 @@ What a Doctor does for people, you do for boats. Only, your instruments aren’t
 
 #### Available Combat Actions:
 - ***Assess***: Investigation check to locate any weakness of an opponent’s ship. If successful, you have advantage on your next attack or contest against them for the next minute. You may add your proficiency modifier to this check, regardless of your proficiency in the skill.
+- **_Brace for Impact_**: When damage is declared but before it is applied, you can shout a warning to the crew to secure lines and brace for the shock. Make a DC 15 Charisma/Intimidation check (Intimidation). On success, the ship gains Resistance to all damage from the triggering attack or collision; on failure, the damage is reduced by an amount equal to the ship's Crew Quality.
 
 
 #### Available Travel or Combat Actions:
@@ -614,8 +619,9 @@ When starting the voyage, roll on this table to determine current conditions. We
 
 ##### Table: Wind Strength
 Once weather has been rolled, roll on this table to determine wind strength for the next span of days.
+
 | Fair | Varies | Storm | Strength | Ranged Attacks | Siege Attacks | Sail Speed | 
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 01-10 |   ─    |   ─   | Becalmed  |  — | — | ×0 |
 | 11-65 | 01- 20 |   ─   | Breeze    |  — | — | ×1 |
 | 66-90 | 21- 65 |   ─   | Moderate  | — | — | ×1 | 
@@ -649,3 +655,104 @@ Strong winds have varying effects on creatures subject to them. Conditions and S
 
 ***Blown***: DC20+ - save or be knocked prone and rolled 15', taking 1d6 damage. Flying creatures are blown back 60'. DC increases by 5 for each wind strength level.
 
+
+
+## PART IV: Encounters
+
+The open sea is a battlefield unlike any other. There is no cover but the waves, no retreat but the wind, and the ground beneath your feet is as alive as the enemy before you.
+
+## Initiative & The Order of Battle
+
+Naval combat takes place in standard 6-second rounds to allow for seamless integration with character spells and abilities. However, unlike individual combat, a ship acts as a single, massive entity.
+
+### Ship Initiative
+
+When combat begins, roll Initiative for each ship involved.
+
+> **Ship Initiative = d20 + Helmsman's DEX Modifier + Crew Quality Score**
+
+- **Ties:** Broken by the ship with the higher Dexterity score.
+- **The Ship's Turn:** On a ship's turn, the **Helmsman** executes movement. Before, during, or after this movement, all other **Officers** and **Crew** may take their actions. The ship acts as a cohesive unit; the Captain may shout an order, the Helmsman brings the ship about, and the Master Gunner fires the broadside all in the same "moment."
+
+## Movement & Positioning
+
+Movement is dictated by the ship's **Maneuvering Class** and **Speed**.
+
+- **Facing:** Ships must face a specific hex side.
+- **Turning:** A ship must pay movement costs to rotate, defined by its Maneuvering Class.
+- **Momentum:** A ship cannot end its turn in the same hex it started in unless it is **Becalmed** or **Anchored**. If a ship has speed from sails, it *must* move at least half its speed or make a Pilot Check (DC 15) to stall the sails; failure means it drifts forward.
+
+## Offensive Maneuvers
+
+### Ramming
+
+When a ship decides to become the weapon. A ram requires the ship to move in a straight line for at least 2 hexes (50 ft.) before impact.
+
+1. **The Attack:** The Helmsman makes a **Ram Attack** (d20 + WIS (Vehicle) + Ship STR Modifier) against the target’s **Hull AC**.
+   - *Advantage:* If the target is **Stationary** or **Becalmed**.
+   - *Disadvantage:* If the target successfully took the **Evasive Maneuvers** action this round.
+2. **The Impact:** On a hit, the target takes **Bludgeoning Damage** equal to:
+   - **(Ship STR Modifier)d6 × (Number of Hexes traveled in a straight line)**
+   - *Note:* If the ship has a **Ram** upgrade, this damage is increased/modified as per the upgrade rules.
+3. **Recoil:** The attacking ship takes damage equal to **half** the damage dealt to the target.
+   - *Ram Upgrade:* Reduces recoil damage to **1/4** the damage dealt.
+4. **Aftermath:** Both ships are effectively stopped. The attacking ship may choose to **Grapple** the target (see Boarding) as a free object interaction upon impact.
+
+### Boarding
+
+The brutal transition from naval maneuvering to hand-to-hand combat.
+
+#### Phase 1: The Approach & Grapple
+
+To board, a ship must be adjacent to the target (or have just Rammed it).
+
+- **Throwing Hooks:** The **Crew** or **Leftenant** spends an action to throw grappling hooks.
+- **The Check:** Make a **Grapple Check**:
+  - **Attack:** d20 + Crew Quality against Defending Ship's AC + Defending Crew Quality
+- **Success:** The ships are **Tethered**. Movement for both ships becomes 0. Neither ship can move away until the grapples are cut.
+
+#### Phase 2: The Action
+
+Once Tethered, the **Leftenant** may order **General Melee** or **Repel Boarders**.
+
+- **The Gangplanks:** Moving between ships counts as Difficult Terrain unless a gangplank is deployed (Use an Object action).
+- **Cutting Grapples:** A character or crew group can attempt to sever the lines (AC 12, 10 HP per line). If all lines are severed, the ships begin to drift apart.
+
+## Defensive Maneuvers
+
+### Reaction: Brace for Impact
+
+Available to: Captain, First Mate, Quartermaster, Boatswain
+
+Trigger: The ship is hit by an attack or takes damage from a collision/hazard.
+
+When destruction is imminent, a leader’s voice can steel the crew against the blow.
+
+- **The Check:** Make a **DC 15 Intimidation Check**.
+- **Success:** The ship gains **Resistance** to all damage from the triggering attack or collision.
+- **Failure:** The damage is reduced by an amount equal to the ship's **Crew Quality** (No minimum reduction).
+  - *Note:* A negative Crew Quality (Mutinous) results in _additional_ damage reduction on a failure, as the crew becomes confused and fails to act appropriately.
+
+## Crisis: Sinking and Critical Damage
+
+Ships are resilient, but not immortal. When a ship’s HP is depleted, it does not simply vanish.
+
+### 0 Hit Points: Dead in the Water
+
+When a ship is reduced to 0 Hull Hit Points, it is **Crippled**.
+
+- **Speed** becomes 0.
+- The ship begins taking on water.
+- All crew actions must be used to **Improvise (Bail/Repair)** or the ship will begin the **Sinking** process.
+
+### Sinking
+
+If a Crippled ship takes further damage equal to its **Damage Threshold**, or if the crew fails to stabilize it for 3 consecutive rounds:
+
+1. **Listing:** The deck becomes Difficult Terrain. All Dexterity checks are made at Disadvantage.
+2. **Submerging:** At the end of each round, the water level rises 5 feet.
+3. **The Plunge:** Once fully submerged, the ship creates a vortex. Any creature in the water within 20 feet of the ship must make a DC 15 Strength (Athletics) check or be pulled 20 feet down.
+
+### Repairing Under Fire
+
+The **Boatswain** may attempt emergency repairs on a Crippled ship (DC 20 Carpenter's Tools check). Success restores HP equal to the ship's CON modifier, upgrading its condition from **Crippled** to **Critical** (Speed remains 0, but no longer sinking).
