@@ -48,7 +48,7 @@ Player chosen to navigate rolls twice, once before noon break and once before ca
 | Failed by 5 or more | ½ movement, wrong direction |
 |           Natural 1 |            Lost!            |
 
-
+_Rangers roll on this table with Advantage._
 
 ## Travel Process
 - Pick a destination and a speed.
