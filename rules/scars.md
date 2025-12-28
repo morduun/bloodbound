@@ -1,27 +1,27 @@
-# Optional Rule: The Mortal Coil
+# Scars
 
-This system replaces the standard rules for Death Saving Throws to introduce grit, long-term consequences, and heroic sacrifice. It redefines Hit Points as "Stamina" or "Luck"—a protective buffer that, once depleted, forces a character to trade their life force to stay in the fight.
+This system replaces the standard rules for Death Saving Throws to introduce grit, long-term consequences, and heroic sacrifice. It redefines Hit Points as more "Stamina" or "Luck" than bodily damage; the intent is to see them as a protective buffer that, once depleted, forces a character to trade their life force to stay in the fight.
 
-### Fate Points
+## Fate Points
 
 Every character has **3 Fate Points**. These are tracked using the **Death Saving Throw** failures on the character sheet.
 
 - **Unspent Fate Points** represent a character's reserve of luck and resilience.
 - **Spent Fate Points** represent deep trauma, exhaustion, and the encroachment of death.
 
-### Spending Fate
+## Spending Fate
 
 A character may choose to spend a Fate Point as a **Reaction** to specific triggers. When a point is spent, mark off one Death Saving Throw failure. This mark remains until recovered (see *Recovery*).
 
 You may spend Fate in two ways:
 
-#### 1. Defy Death (Physical)
+### 1. Defy Death (Physical)
 
-Trigger: You take damage that would reduce you to 0 Hit Points.
+Trigger: You take damage that would reduce you to half or 0 Hit Points.
 
 Effect: You spend 1 Fate Point. You take no damage from the triggering attack. Instead, you immediately suffer a Physical Scar (see Scars of Conflict).
 
-#### 2. Grim Resolve (Mental)
+### 2. Grim Resolve (Mental)
 
 Trigger: You fail a Saving Throw.
 
@@ -29,17 +29,17 @@ Effect: You spend 1 Fate Point. You treat the failed save as if you had rolled a
 
 ------
 
-### Scars of Conflict
+## Scars of Conflict
 
 When you spend a Fate Point, the severity of the consequence depends on how deeply you have drawn from the well. Roll on the table corresponding to the **total number of Fate Points currently spent** (including the one just used).
 
-#### Tier 1: The Warning (1st Point Spent)
+### Tier 1: The Warning (1st Point Spent)
 
 These injuries are painful and distracting, but not debilitating.
 
 Recovery: These Scars heal after a Long Rest, provided someone succeeds on a DC 15 Wisdom (Medicine) check to tend to them.
 
-##### Defy Death: Physical Scars (Tier 1)
+#### Defy Death: Physical Scars (Tier 1)
 
 | **2d6** | **Impact (Blunt/Force)**                                     | **Rending (Slash/Pierce)**                                   | **Exposure (Magic/Energy)**                                  |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -53,7 +53,7 @@ Recovery: These Scars heal after a Long Rest, provided someone succeeds on a DC 
 | **11**  | **Migraine:** Disadvantage on Intelligence Checks.           | **Flinch:** Disadvantage on Opportunity Attacks.             | **Static Charge:** Touching metal deals 1 lightning dmg to you. Stealth is Impossible. |
 | **12**  | **Micro-Fracture:** Your Carrying Capacity is halved.        | **Severed Ear Tip:** -2 to Charisma (Persuasion), +2 to Charisma (Intimidation). | **Void-Touched:** Animals are hostile to you. Disadvantage on Animal Handling. |
 
-##### Grim Resolve: Stress Scars (Tier 1)
+#### Grim Resolve: Stress Scars (Tier 1)
 
 | **2d6** | **Somatic Burnout (STR / DEX / CON)**                        | **Cognitive Fracture (INT / WIS / CHA)**                     |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -69,13 +69,13 @@ Recovery: These Scars heal after a Long Rest, provided someone succeeds on a DC 
 
 
 
-#### Tier 2: The Burden (2nd Point Spent)
+### Tier 2: The Burden (2nd Point Spent)
 
 These injuries represent significant trauma—broken bones, concussions, or psychic fractures.
 
 Recovery: These Scars require 1 Workweek of Downtime (resting in safety) or a Lesser Restoration spell cast as a 1-hour ritual.
 
-##### Defy Death: Physical Scars (Tier 2)
+#### Defy Death: Physical Scars (Tier 2)
 
 | **2d6** | **Impact (Blunt/Force)**                                     | **Rending (Slash/Pierce)**                                   | **Exposure (Magic/Energy)**                                  |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -89,7 +89,7 @@ Recovery: These Scars require 1 Workweek of Downtime (resting in safety) or a Le
 | **11**  | **Shattered Teeth:** -2 on Charisma checks. Bite attacks impossible. | **Nerve Cluster:** Drop whatever you are holding if you take damage. | **Hollow:** You cannot be the target of beneficial spells (Healing Word, Bless, etc). |
 | **12**  | **Cranial Swelling:** You are Blinded beyond 10 feet.        | **Open Vein:** Start every combat with a Death Save failure already marked (temporary). | **Arcane Leech:** Magical healing deals 1d4 damage before healing applies. |
 
-##### Grim Resolve: Stress Scars (Tier 2)
+#### Grim Resolve: Stress Scars (Tier 2)
 
 | **2d6** | **Somatic Burnout (STR / DEX / CON)**                        | **Cognitive Fracture (INT / WIS / CHA)**                     |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -105,13 +105,13 @@ Recovery: These Scars require 1 Workweek of Downtime (resting in safety) or a Le
 
 
 
-#### Tier 3: The Anchor (3rd Point Spent)
+### Tier 3: The Anchor (3rd Point Spent)
 
 These are life-altering events. Limbs are lost, minds are shattered, and souls are stained.
 
 Recovery: These Scars are Permanent. They can only be removed by a Regenerate spell (for physical), Greater Restoration (for mental), or a specific campaign quest.
 
-##### Defy Death: Physical Scars (Tier 3)
+#### Defy Death: Physical Scars (Tier 3)
 
 | **2d6** | **Impact (Blunt/Force)**                                     | **Rending (Slash/Pierce)**                                   | **Exposure (Magic/Energy)**                                  |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -127,7 +127,7 @@ Recovery: These Scars are Permanent. They can only be removed by a Regenerate sp
 
 
 
-##### Grim Resolve: Stress Scars (Tier 3)
+#### Grim Resolve: Stress Scars (Tier 3)
 
 | **2d6** | **Somatic Burnout (STR / DEX / CON)**                        | **Cognitive Fracture (INT / WIS / CHA)**                     |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -143,16 +143,16 @@ Recovery: These Scars are Permanent. They can only be removed by a Regenerate sp
 
 ------
 
-### Recovery & Death
+## Recovery & Death
 
-#### Recovering Fate Points
+### Recovering Fate Points
 
 Your Fate Points (the slots themselves) represent your adrenaline and will to live.
 
 - **Long Rest:** All spent Fate Points are un-marked and become available for use again.
 - *Note:* Recovering the Point **does not** heal the Scar. You may wake up with full Fate Points (ready to fight), but still suffer from a *Shattered Limb* (Tier 3 Scar) acquired yesterday.
 
-#### Dying
+### Dying
 
 When you are reduced to 0 Hit Points and choose **not** to spend a Fate Point (or have none left), you fall Unconscious and make Death Saving Throws as normal, with the following changes:
 
